@@ -26,6 +26,7 @@ public class HelloController{
         List<String> staff = new ArrayList<String>();
         staff.add("staff1");
         staff.add("staff2");
+        //shop.setStaffName(staff);
         shop.setStaffName(staff);
         return shop;
     }
